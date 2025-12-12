@@ -188,7 +188,10 @@ Spending Performance:
 - Necessities: $108.16 / $200 budget ✅ Under by $91.84
 - Guilt-free: $29.99 / $200 budget ✅ Under by $170.01
 
-Notable Transactions: Strong grocery discipline with small Aldi/Publix trips. Mixed dining - quick bites (Taco Bell $8.03, Chick-fil-A $7.59) plus higher-end experiences. Transportation via rideshare when needed.
+Notable Transactions:
+Strong grocery discipline with small Aldi/Publix trips.
+Mixed dining - quick bites (Taco Bell $8.03, Chick-fil-A $7.59) plus higher-end experiences.
+Transportation via rideshare when needed.
 
 ---
 
@@ -231,4 +234,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Note**: This system handles personal financial data. Always review transactions for accuracy, maintain backups, and secure your API credentials properly.
 
-**Contact**: [Your LinkedIn](www.linkedin.com/in/sunnypatel99)
+**Contact**: [LinkedIn](www.linkedin.com/in/sunnypatel99)
