@@ -16,8 +16,6 @@ AI Budget Bot eliminates manual finance tracking by automating the entire flow f
 
 ## 🏗️ Architecture
 ```
-## 🏗️ Architecture
-```
 ┌─────────────────┐
 │  Credit Card    │
 │  Email Alert    │
@@ -55,7 +53,6 @@ AI Budget Bot eliminates manual finance tracking by automating the entire flow f
              │ Discord  │
              │ Messages │
              └──────────┘
-```
 ```
 
 ## 🛠️ Tech Stack
