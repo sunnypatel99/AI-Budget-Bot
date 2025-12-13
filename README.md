@@ -54,6 +54,19 @@ AI Budget Bot eliminates manual finance tracking by automating the entire flow f
              │ Messages │
              └──────────┘
 ```
+## 📸 Workflows & Reports
+
+### Transaction Processing Workflow
+![Transaction Processing](workflow_images/Transaction_Processing.png)
+*Daily automated workflow: Gmail → Claude AI → Airtable*
+
+### Weekly Report Workflow
+![Weekly Report Workflow](images/Weekly_Report.png)
+*Scheduled weekly analysis with dual time-period tracking*
+
+### Monthly Report Workflow
+![Monthly Report Workflow](images/Monthly_Report.png)
+*Comprehensive monthly budget analysis*
 
 ## 🛠️ Tech Stack
 
