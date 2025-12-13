@@ -152,7 +152,7 @@ Format with emojis, bold text, clear sections. Be direct and analytical. IMPORTA
 
 ### Key Design Decisions:
 
-1. **Pre-Calculated Totals**: All math done in Code node before Claude sees it (LLMs are bad at arithmetic)
+1. **Pre-Calculated Totals**: All math done in Code node before Claude sees it (LLMs are bad at math)
 2. **Dual Time Periods**: Shows both weekly snapshot AND month-to-date progress
 3. **Explicit Math Warning**: Multiple reminders NOT to calculate totals
 4. **Transaction Highlighting**: Encourages specific examples (merchant + amount) for context
