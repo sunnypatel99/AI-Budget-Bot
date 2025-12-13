@@ -337,8 +337,6 @@ Initially sent all raw transaction data and asked Claude to calculate AND analyz
 1. Code node calculates
 2. Claude analyzes pre-calculated numbers
 
-...improved both accuracy and report quality.
-
 ---
 
 ## Prompt Templates for Adaptation
