@@ -76,7 +76,7 @@ After receiving Claude's response, a Code node:
 
 **Purpose:** Generate intelligent weekly budget analysis with spending insights and recommendations.
 
-**Workflow:** Weekly Finance Report (runs every Monday)
+**Workflow:** Weekly Finance Report (runs every Sunday)
 
 **Model:** Claude Sonnet 4
 
