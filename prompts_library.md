@@ -241,16 +241,6 @@ Format with emojis, bold text, clear sections. Be direct and analytical - no sug
 - Calculate simple variance (provided number - budget)
 - Analyze patterns (qualitative, not quantitative)
 
-**Example:**
-```javascript
-// ✅ GOOD: Calculate in code
-const totalSpent = transactions.reduce((sum, t) => sum + t.amount, 0);
-// Then give to Claude: "Total spent: $500"
-
-// ❌ BAD: Ask Claude to calculate
-// "Add up these 50 transaction amounts and tell me the total"
-```
-
 ---
 
 ### 2. **Be Explicit About Category Mapping**
@@ -323,33 +313,25 @@ const totalSpent = transactions.reduce((sum, t) => sum + t.amount, 0);
 
 ### 1. **Iteration is Key**
 
-Initial prompts were too trusting of AI's math abilities. After discovering incorrect totals, pivoted to pre-calculation strategy. This improved accuracy from ~70% to 100%.
+Initial prompts were too trusting of AI's math abilities. After discovering incorrect totals, pivoted to pre-calculation strategy.
 
 ### 2. **Specificity Prevents Ambiguity**
 
 Early prompts like "categorize this transaction" led to 30+ unique category variations. Explicit category list reduced this to zero variance.
 
-### 3. **Test with Edge Cases**
-
-Prompts were refined by testing with:
-- Refunds (negative amounts)
-- Split transactions
-- Merchant names with special characters
-- Ambiguous purchases (is "Target" groceries or shopping?)
-
-### 4. **Character Limits Matter**
+### 3. **Character Limits Matter**
 
 First reports exceeded Discord's limit. Adding "under 1800 characters" reduced message failures from ~40% to 0%.
 
-### 5. **Direct Tone Works Better**
+### 4. **Direct Tone Works Better**
 
 Requesting "encouraging but honest" led to sugar-coated reports. Switching to "direct and analytical - no sugar coating" produced more actionable insights.
 
-### 6. **Transaction Examples Add Value**
+### 5. **Transaction Examples Add Value**
 
 Reports that only showed totals felt generic. Adding "highlight 3-5 specific transactions" made reports feel personalized and actionable.
 
-### 7. **Separate Data from Analysis**
+### 6. **Separate Data from Analysis**
 
 Initially sent all raw transaction data and asked Claude to calculate AND analyze. Separating these into:
 1. Code node calculates
@@ -421,16 +403,6 @@ Potential improvements being considered:
 3. **Seasonal Adjustments**: Recognize holidays, travel months, etc.
 4. **Goal Tracking**: Incorporate savings goals and progress
 5. **Anomaly Detection**: Flag unusual spending patterns automatically
-
----
-
-## Version History
-
-- **v1.0** (Dec 2024): Initial prompts with AI doing calculations
-- **v2.0** (Dec 2024): Moved calculations to Code nodes after discovering math errors
-- **v2.1** (Dec 2024): Added explicit "no lifestyle assumptions" rule
-- **v2.2** (Dec 2024): Reduced character limit from 2000 to 1800 for Discord buffer
-- **v3.0** (Dec 2024): Current version with transaction highlighting and pattern analysis
 
 ---
 
