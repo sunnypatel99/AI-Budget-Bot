@@ -54,7 +54,7 @@ AI Budget Bot eliminates manual finance tracking by automating the entire flow f
              │ Messages │
              └──────────┘
 ```
-## 📸 Workflows & Reports
+## 📸 Workflows
 
 ### Transaction Processing Workflow
 ![Transaction Processing](workflow_images/Transaction_Processing.png)
