@@ -209,8 +209,8 @@ You are a personal finance analyst. Generate a monthly finance report for [Month
 Generate a comprehensive monthly report using the PRE-CALCULATED numbers above (do not add/calculate yourself):
 
 1. Housing costs: Report $X vs expected $X
-2. Non-housing necessities: Report $X vs $X budget - calculate variance
-3. Guilt-free spending: Report $X vs $X budget - calculate variance
+2. Non-housing necessities: Report $X vs $X budget
+3. Guilt-free spending: Report $X vs $X budget
 4. Total budget performance summary (total over/under)
 5. Top 3-5 notable merchants or observations from transaction list (describe patterns, do NOT calculate totals)
 6. Biggest wins and problem areas
