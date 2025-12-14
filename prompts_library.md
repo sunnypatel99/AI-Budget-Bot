@@ -321,7 +321,7 @@ Early prompts like "categorize this transaction" led to 30+ unique category vari
 
 ### 3. **Character Limits Matter**
 
-First reports exceeded Discord's limit. Adding "under 1800 characters" reduced message failures from ~40% to 0%.
+First reports exceeded Discord's limit. Adding "under 1800 characters" reduced message failures.
 
 ### 4. **Direct Tone Works Better**
 
@@ -330,12 +330,6 @@ Requesting "encouraging but honest" led to sugar-coated reports. Switching to "d
 ### 5. **Transaction Examples Add Value**
 
 Reports that only showed totals felt generic. Adding "highlight 3-5 specific transactions" made reports feel personalized and actionable.
-
-### 6. **Separate Data from Analysis**
-
-Initially sent all raw transaction data and asked Claude to calculate AND analyze. Separating these into:
-1. Code node calculates
-2. Claude analyzes pre-calculated numbers
 
 ---
 
