@@ -13,7 +13,7 @@ AI Budget Bot eliminates manual finance tracking by automating the entire flow f
 - **📊 Smart Budget Analysis**: Weekly and monthly reports with spending variance, pace analysis, and recommendations
 - **💬 Discord Integration**: Automated report delivery with real-time monitoring
 - **🎯 Personalized Insights**: Direct, analytical financial recommendations without sugar-coating
-- **🏠 Self-Hostable: Run on Raspberry Pi or any Docker-compatible system for maximum privacy and cost savings
+- **🏠 Self-Hostable**: Run on Raspberry Pi or any Docker-compatible system for maximum privacy and cost savings
 
 ## 🏗️ Architecture
 ```
