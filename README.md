@@ -13,6 +13,7 @@ AI Budget Bot eliminates manual finance tracking by automating the entire flow f
 - **📊 Smart Budget Analysis**: Weekly and monthly reports with spending variance, pace analysis, and recommendations
 - **💬 Discord Integration**: Automated report delivery with real-time monitoring
 - **🎯 Personalized Insights**: Direct, analytical financial recommendations without sugar-coating
+- **🏠 Self-Hostable: Run on Raspberry Pi or any Docker-compatible system for maximum privacy and cost savings
 
 ## 🏗️ Architecture
 ```
@@ -78,7 +79,7 @@ AI Budget Bot eliminates manual finance tracking by automating the entire flow f
 | **Messaging** | Discord (Webhooks) |
 | **Email Integration** | Gmail API (OAuth 2.0) |
 | **Language** | JavaScript (n8n Code nodes) |
-| **Deployment** | n8n Cloud, Scheduled Triggers |
+| **Deployment** | Docker / Rasberry Pi |
 
 ## 📊 Workflows
 
@@ -139,6 +140,8 @@ The system supports flexible budget allocation with customizable categories:
 
 ## 💰 Cost Breakdown
 
+Option 1: n8n Cloud (Hosted)
+
 | Service | Cost |
 |---------|------|
 | n8n Cloud | $24/month (2,500 executions/month) |
@@ -147,6 +150,19 @@ The system supports flexible budget allocation with customizable categories:
 | Discord | Free |
 | Gmail API | Free |
 | **Total** | **~$24.50-26/month** |
+
+Option 2: Self-Hosted (Raspberry Pi + Docker)
+
+| Service | Cost |
+|---------|------|
+| Raspberry Pi 5 (8GB) Kit | $$150 (one-time) |
+| Electricity | ~$0.50/month |
+| Claude API | ~$0.50-2/month |
+| Airtable | Free tier |
+| Discord | Free |
+| Gmail API | Free |
+| **Initial Cost** | **~$150** |
+| **Total Monthly Cost** | **~$1-$2.50** |
 
 ## 🚀 Setup Overview
 
@@ -182,12 +198,14 @@ The system supports flexible budget allocation with customizable categories:
 - Implemented AI prompt engineering to avoid LLM calculation errors (pre-calculate in code, not AI)
 - Designed dynamic budget system adjusting for variable monthly income
 - Built stateless weekly reports spanning month boundaries
+- Created secure self-hosted deployment on Raspberry Pi
 
 ### Best Practices Applied
 - Pre-calculation of totals in code (don't rely on AI for math)
 - Explicit category mapping to prevent miscategorization
 - Separate housing from variable spending for accurate tracking
 - Use of "Actual Spend" field for split transactions/reimbursements
+- Security-first approach for self-hosted deployments
 
 ## 📸 Sample Report
 ```
@@ -220,7 +238,7 @@ Excellent control creating buffer for holiday spending!
 - [ ] Create budget alert notifications for spending thresholds
 - [ ] Add interactive dashboard with visual charts and graphs
 - [ ] Implement natural language query chatbot for ad-hoc questions
-- [ ] Add predictive spending forecasts using historical data
+- [ ] Mobile app for on-the-go access
 
 ## 🤝 Contributing
 
@@ -229,6 +247,7 @@ This is a personal project, but suggestions and ideas are welcome! Feel free to 
 - Bug reports
 - Optimization ideas
 - Questions about implementation
+- Self-hosting improvements
 
 ## 📄 License
 
@@ -243,5 +262,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ---
 
 **Note**: This system handles personal financial data. Always review transactions for accuracy, maintain backups, and secure your API credentials properly.
+
+**Pro Tip**: Start with n8n Cloud for quick setup and easy testing, then migrate to self-hosted Raspberry Pi once you're comfortable with the workflows. This gives you the best of both worlds: fast start and long-term cost savings.
 
 **Contact**: [LinkedIn](www.linkedin.com/in/sunnypatel99)
