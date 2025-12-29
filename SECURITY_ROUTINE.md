@@ -103,11 +103,11 @@ sudo ufw status
 ### 4. Check for Unauthorized Access Attempts
 
 ```bash
-# Review failed login attempts (last 20)
-sudo grep "Failed password" /var/log/auth.log | tail -n 20
+# Use journalctl to check for failed logins
+sudo journalctl --since "7 days ago" | grep -i "failed" | tail -n 20
 
-# Check for multiple attempts from same IP
-sudo grep "Failed password" /var/log/auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -rn | head -10
+# Or more specific for SSH
+sudo journalctl _COMM=sshd --since "7 days ago" | grep -i "failed"
 ```
 
 **Red flags:**
