@@ -740,11 +740,3 @@ docker restart n8n
 ---
 
 **Remember:** Security is not a one-time setup, it's an ongoing process. Consistent maintenance catches issues early and keeps your automation running smoothly and securely.
-
-**Questions or improvements to this routine?** Open an issue or submit a pull request!
-
----
-
-**Last Updated:** December 2024  
-**Version:** 1.0  
-**License:** MIT
