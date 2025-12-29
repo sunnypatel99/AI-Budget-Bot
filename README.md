@@ -155,7 +155,7 @@ Option 2: Self-Hosted (Raspberry Pi + Docker)
 
 | Service | Cost |
 |---------|------|
-| Raspberry Pi 5 (8GB) Kit | $$150 (one-time) |
+| Raspberry Pi 5 (8GB) Kit | $150 (one-time) |
 | Electricity | ~$0.50/month |
 | Claude API | ~$0.50-2/month |
 | Airtable | Free tier |
