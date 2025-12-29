@@ -652,41 +652,6 @@ chmod +x ~/check-n8n.sh
 ./check-n8n.sh
 ```
 
-### Optional: Set Up Email Alerts
-
-**For critical issues (requires mail setup):**
-
-```bash
-# Install mail utilities
-sudo apt install mailutils
-
-# Create alert script
-nano ~/n8n-alerts.sh
-```
-
-Add monitoring logic and email notifications for critical issues.
-
----
-
-## 📚 Additional Resources
-
-**Official Documentation:**
-- [n8n Security Best Practices](https://docs.n8n.io/hosting/security/)
-- [Docker Security](https://docs.docker.com/engine/security/)
-- [Raspberry Pi Security](https://www.raspberrypi.com/documentation/computers/configuration.html#security)
-
-**Recommended Reading:**
-- [UFW Firewall Guide](https://help.ubuntu.com/community/UFW)
-- [SSH Security Hardening](https://www.ssh.com/academy/ssh/security)
-- [Docker Container Security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
-
-**Community Support:**
-- [n8n Community Forum](https://community.n8n.io)
-- [Raspberry Pi Forums](https://forums.raspberrypi.com)
-- [r/selfhosted](https://reddit.com/r/selfhosted)
-
----
-
 ## 🛟 Troubleshooting Common Issues
 
 ### Container Won't Start
@@ -771,13 +736,6 @@ docker restart n8n
 - ✅ Up to date with patches
 - ✅ Protected with backups
 - ✅ Monitored for issues
-
-**Time well spent:**
-- Weekly: 5-10 minutes
-- Monthly: 15-20 minutes  
-- Quarterly: 30 minutes
-
-**= 1 hour/month to protect your automation and data**
 
 ---
 
