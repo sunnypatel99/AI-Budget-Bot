@@ -298,11 +298,11 @@ docker image prune -a
 # Check total n8n data directory size
 du -sh ~/.n8n
 
-# Break down by subdirectory
-du -h --max-depth=1 ~/.n8n | sort -hr
+# Break down by component
+du -h --max-depth=1 ~/.n8n 2>/dev/null | sort -hr
 
-# Check execution data size specifically
-du -sh ~/.n8n/.cache/
+# Check database size (contains workflows, credentials, and execution data)
+ls -lh ~/.n8n/database.sqlite
 ```
 
 **If execution data is too large:**
